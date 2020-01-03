@@ -1,0 +1,928 @@
+/*=================================
+    Bootstrap 4 Media Queries
+=================================*/
+
+/*Large devices (Desktop & Laptop)*/
+
+@media (min-width: 992px) and (max-width: 1199px){
+    /*
+    -----------------------------------
+    *       
+    *
+        About Page
+    *
+    *
+    -----------------------------------
+    */
+    
+    .service-image img{
+        min-height: 100%;
+    }
+    
+    /*
+    -----------------------------------
+    *       
+    *
+        Contact Page
+    *
+    *
+    -----------------------------------
+    */
+    .contact-item h3{
+        font-size: 18px;
+    }
+    .contact-item p {
+        font-size: 12px;
+    }
+    
+    /*
+    -----------------------------------
+    *       
+    *
+        Spa service
+    *
+    *
+    -----------------------------------
+    */
+    .spa-service-image img {
+        height: 690px;
+    }
+}
+
+/* Medium Devices (Landscape tablets and desktop)*/
+
+@media (min-width: 768px) and (max-width: 991px){
+    /*    Default CSS   */
+    .section-padding{
+        padding: 80px 0;
+    }
+    .margin-auto{
+        margin: 0 auto;
+    }
+
+    /*    Default CSS   */ 
+    
+    /*    Button CSS   */ 
+    .btn-default{
+        font-size: 12px;
+    }
+    /*    Button CSS   */ 
+    
+    .hotel-item.item-03{
+        margin-top: 20px;   
+    }
+    .card-title {
+        font-size: 26px;
+    }
+    .card-text {
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .btn-room {
+        margin-top: 6px;
+        margin-bottom: 12px;
+    }
+    
+    .contact-border {
+        display: block;
+        margin: 15px auto;
+    }
+
+    .date-content input{
+        font-size: 34px;
+    }
+    
+    .feature-top-left{
+        margin-top: -45px;
+        padding: 28px 50px;
+        height: auto;
+    }
+    .feature-bottom-right{
+        padding: 28px 50px;
+        height: auto;
+        top: -15%;
+    }
+    .feature-slider-title{
+        font-size: 28px;
+    }
+    .feature-slide-text{
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .btn-contact{
+        margin-top: 10px;    
+    }
+    
+    .dining-info {
+        padding-top: 0; 
+        padding-bottom: 0; 
+        padding-left: 30px;
+    }
+    /*
+    -----------------------------------
+    *       
+    *
+        About Page
+    *
+    *
+    -----------------------------------
+    */
+    
+    .about-right{
+        margin-top: 35px;
+    }
+    .service-content-right {
+        padding-top: 10%;
+    }
+    .service-item{
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+    .service-item .title{
+        line-height: 22px;    
+    }
+    
+    .performance-item{
+        margin-top: 25px;
+    }
+    .booking-card-wrapper {
+        padding: 25px 60px;
+    }
+    .card-left{
+        text-align: center;
+    }
+    .card-right .button{
+        float: none!important;
+        padding-right: 0;
+        margin: 10px auto;
+        text-align: center; 
+    }
+    /*
+    -----------------------------------
+    *       
+    *
+        Rooms List
+    *
+    *
+    -----------------------------------
+    */
+    .category-border{
+        margin-bottom: 15px;
+    }
+    .package-category {
+        margin-bottom: 8px;
+    }
+    .package-title{
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .package-text {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .package-image img{
+        height: 430px;
+    }
+    .package-image .price-tag{
+        font-size: 20px;
+    }
+    .package-image .price-tag span {
+        font-size: 12px;
+    }
+    .package-image .package-image-overlay .border-left{
+        margin-left: 18%!important;
+    }
+    .room-item .card-text {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .room-price {
+        font-size: 26px;
+        line-height: 18px;
+    }
+    .room-price .duration{
+        font-size: 12px;
+    }
+    
+    /*
+    -----------------------------------
+    *       
+    *
+        Contact page
+    *
+    *
+    -----------------------------------
+    */
+    
+    .contact-item{
+        margin-bottom: 25px;
+    }
+    .feedback-form .form-headding{
+        text-align: center;
+    }
+    .form-top{
+        margin-bottom: 0
+    }
+    .form-input{
+        margin-bottom: 15px;
+    }
+    
+    /*
+    -----------------------------------
+    *       
+    *
+        Spa service
+    *
+    *
+    -----------------------------------
+    */
+    
+    .spa-price-package{
+        margin-bottom: 25px;
+    }
+    /*
+    -----------------------------------
+    *       
+    *
+        News 
+    *
+    *
+    -----------------------------------
+    */
+    
+    .blog-post .card-title{
+        font-size: 20px;
+    }
+    .blog-post .card-text{
+        font-size: 15px;
+        line-height: 27px;
+    }
+    .blog-post .blog-date {
+        width: 56px;
+        height: 56px;
+        top: 16%;
+        left: 74%;
+        padding: 12px 12px;
+    }
+    .blog-post .blog-date h5 {
+        font-size: 14px;
+    }
+    .blog-post .card:hover .blog-date {
+        left: 74%;
+    }
+}
+
+
+/* Small Devices (portrait tablets and desktop)*/
+
+@media (min-width: 576px) and (max-width: 767px){
+/*    Default CSS   */
+    .section-padding{
+        padding: 80px 0;
+    }
+    .margin-auto{
+        margin: 0 auto;
+    }
+    .m-item , .mt-item-sm{
+        margin-top: 20px;
+    }
+/*    Default CSS   */  
+    
+    #banner{
+        height: 590px;
+    }
+    .banner-caption{
+        margin-bottom: 10px;
+    }
+    .banner-title{
+        font-size: 46px;
+    }
+    .banner-common-list {
+        padding-top: 88%;
+    }
+    .banner-common-title {
+        padding-top: 78%;
+    }
+    .banner-common-title h1 {
+        font-size: 48px;
+    }
+    .hotel-item img{
+        width: 100%;
+    }
+    .overlay-content{
+        padding-top: 20%;
+    }
+    .feature-top-left ,.feature-bottom-right{
+        width: 100%;
+        margin-top: -45px;
+        height: auto;
+        padding: 18px 0px;
+    }
+    .feature-bottom{
+        padding-bottom: 55%;
+    }
+    .feature-bottom-right{
+        top: 7%;
+        left: 0;
+        margin-top: 0!important;
+    }
+    .feature-slider-title{
+        font-size: 28px;
+    }
+    .feature-slide-text{
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .btn-contact{
+        margin-top: 10px;    
+    }
+    .dining-info {
+        padding-top: 0; 
+        padding-bottom: 40px; 
+        padding-left: 30px;
+    }
+    .blog-item {
+        margin-bottom: 25px;
+    }
+    .blog-item-content h4 {
+        letter-spacing: 0px;
+        line-height: 28px;
+    }
+    .blog-item-content p{
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .owl-carousel .owl-nav button.owl-prev{
+        left: 20px;
+        top: 20px;
+    }
+    .owl-carousel .owl-nav button.owl-next{
+        right: 20px;
+        top: 20px;
+    }
+    #footer.section-padding{
+        padding: 50px 0;
+    }
+    .footer-list{
+        margin-bottom: 0;
+    }
+    .footer-content-right{
+        padding-top: 30px;
+    }
+    /*
+    -----------------------------------
+    *       
+    *
+        About Page
+    *
+    *
+    -----------------------------------
+    */
+    .about-banner-list {
+        padding-top: 40%;
+        text-align: center;
+    }
+    .about-banner-title {
+        padding-top: 3%;
+        float: none;
+        text-align: center;
+    }
+    .about-right{
+        margin-top: 35px;
+    }
+    .about-item{
+        margin-bottom: 20px;
+    }
+    .about-item:nth-child(3) {
+        margin-bottom: 0;
+    }
+    .service-content-right {
+        padding-top: 10%;
+        padding-bottom: 8%;
+        padding-left: 5%;
+    }
+    .service-item{
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+    .service-item .title{
+        line-height: 22px;    
+    }
+    .booking-card-wrapper {
+        padding: 25px 60px;
+    }
+    .card-title {
+        font-size: 34px;
+    }
+    .card-left{
+        text-align: center;
+    }
+    .card-text {
+        font-size: 17px;
+    }
+    .card-right .button{
+        float: none!important;
+        padding-right: 0;
+        margin: 10px auto;
+        text-align: center; 
+    }
+    
+    /*
+    -----------------------------------
+    *       
+    *
+        Rooms List
+    *
+    *
+    -----------------------------------
+    */
+    
+    .package-details .package-text ,.package-details .package-feature{
+        display: none;
+        visibility: hidden;
+    }
+    .category-border{
+        margin-bottom: 15px;
+    }
+    .package-category {
+        margin-bottom: 8px;
+    }
+    .package-title{
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .package-text {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .package-image img{
+        height: 430px;
+    }
+    .package-image .price-tag{
+        font-size: 20px;
+        bottom: 0;
+        left: 29%;
+    }
+    .package-image:hover .price-tag {
+        left: 29%;
+    }
+    .package-image .price-tag span {
+        font-size: 12px;
+    }
+    .package-image .package-image-overlay .border-left{
+        margin-left: 18%!important;
+    }
+    .room-item .card-text {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .room-price {
+        font-size: 26px;
+        line-height: 18px;
+    }
+    .room-price .duration{
+        font-size: 12px;
+    }
+    /*
+    -----------------------------------
+    *       
+    *
+        Contact page
+    *
+    *
+    -----------------------------------
+    */
+    
+    .contact-item{
+        margin-bottom: 25px;
+    }
+    .feedback-form .form-headding{
+        text-align: center;
+    }
+    .form-top{
+        margin-bottom: 0
+    }
+    .form-input{
+        margin-bottom: 15px;
+    }
+    
+    /*
+    -----------------------------------
+    *       
+    *
+        Spa service
+    *
+    *
+    -----------------------------------
+    */
+    
+    .spa-price-package{
+        margin-bottom: 25px;
+    }
+    
+    
+    /*
+    -----------------------------------
+    *       
+    *
+        News 
+    *
+    *
+    -----------------------------------
+    */
+    .blog-posts-wrapper{
+        margin-bottom: 60px;
+    }
+    .blog-post .card-title{
+        font-size: 20px;
+    }
+    .blog-post .card-text{
+        font-size: 15px;
+        line-height: 27px;
+    }
+    .blog-post .blog-date {
+        width: 56px;
+        height: 56px;
+        top: 16%;
+        left: 77%;
+        padding: 12px 12px;
+    }
+    .blog-post .blog-date h5 {
+        font-size: 14px;
+    }
+    .blog-post .card:hover .blog-date {
+        left: 77%;
+    }
+    .page-nav-links{
+        margin-top: 15px!important;
+        padding-left: 28%;
+    }
+    .r-list .list-item{
+        padding-bottom: 10px;
+    }
+}
+
+
+/* Extra Small Devices (portrait tablets and Landscape phones)*/
+
+@media (min-width: 320px) and (max-width: 575px){
+   /*    Default CSS   */
+    .section-padding{
+        padding: 80px 0;
+    }
+    .margin-auto{
+        margin: 0 auto;
+    }
+    .m-item , .mt-item-xs{
+        margin-top: 20px!important;
+    }
+    .text-sm-center{
+        text-align: center;
+    }
+    /*    Default CSS   */ 
+    
+    /*    btn CSS     */
+    .btn-contact {
+        padding: 14px 31px;
+    }
+    .btn-default {
+        font-size: 13px;
+        letter-spacing: 0;
+    }
+    
+    .owl-theme .owl-nav{
+        display: none;
+    }
+    .headding-title{
+        font-size: 34px;
+        margin-bottom: 2px;
+    }
+    .headding-boder{
+        margin-bottom: 10px;
+    }
+    
+    .banner-common-list {
+        padding-top: 45%;
+        text-align: center;
+    }
+    .banner-common-title {
+        padding-top: 2%;
+        float: none;
+        text-align: center;
+    }
+    .banner-common-title h1 {
+        font-size: 48px;
+    }
+    .hotel-top-content{
+        padding-bottom: 20px!important; 
+    }
+    .hotel-bottom-content{
+        padding-top: 0!important;
+    }
+    .hotel-top-left .hotel-caption{
+        font-size: 34px;
+    }
+    .hotel-item img{
+        width: 100%;
+    }
+    .overlay-content{
+        padding-top: 20%;
+    }
+    .room-item{
+        margin-bottom: 25px;
+    }
+    .feature-top-left ,.feature-bottom-right{
+        width: 100%;
+        margin-top: -45px;
+        height: auto;
+        padding: 18px 0px;
+    }
+    .feature-bottom{
+        padding-bottom: 55%;
+    }
+    .feature-bottom-right{
+        top: 7%;
+        left: 0;
+        margin-top: 0!important;
+    }
+    .feature-slider-title{
+        font-size: 28px;
+    }
+    .feature-slide-text{
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .feature-item{
+        padding: 0 15px;
+    }
+    .btn-contact{
+        margin-top: 10px;    
+    }
+    .dining-info {
+        padding-top: 0;
+        padding-bottom: 40px;
+        padding-left: 30px;
+    }
+    .blog-item-image img{
+        width: 100% !important;
+    }
+    .blog-item{
+        margin-bottom: 25px;
+    }
+    .blog-date{
+        left: -3%;
+    }
+    .blog-item-content h4{
+        margin-top: 8px;
+    }
+    .performance-item{
+        margin-bottom: 20px;
+    }
+    .input-btn {
+        right: 9%;
+        top: 76%;
+    }
+    .footer-list{
+        margin-bottom: 0;
+    }
+    .payment-icons{
+        padding: 20px 0;
+        margin-top: 10px;
+    }
+    .payment-icons a {
+        padding: 0 22px;
+    }
+    .footer-content-right{
+        margin-top: 35px;
+    }
+    /* default css  */
+
+    .btn-mb{
+        margin-bottom: 25px;
+    }
+    /*
+    -----------------------------------
+    *       
+    *
+        About Page
+    *
+    *
+    -----------------------------------
+    */
+    .about-banner-list {
+        padding-top: 64%;
+        text-align: center;
+    }
+    .about-banner-title {
+        padding-top: 3%;
+        float: none;
+        text-align: center;
+    }
+    .about-left .about-title {
+        line-height: 32px;
+        font-size: 24px;
+    }
+    .about-left .about-text {
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .about-right{
+        margin-top: 35px;
+    }
+    .about-item{
+        margin-bottom: 20px;
+    }
+    .about-item:nth-child(3) {
+        margin-bottom: 0;
+    }
+    .service-content-right {
+        padding-top: 10%;
+        padding-bottom: 8%;
+    }
+    .service-item{
+        padding-left: 0!important;
+        padding-right: 0!important;
+        text-align: center;
+    }
+    .service-item .title{
+        line-height: 22px;    
+    }
+    
+    .booking-card-wrapper {
+        padding: 25px 60px;
+    }
+    .card-title {
+        font-size: 25px;
+    }
+    .card-left{
+        text-align: center;
+    }
+    .card-text {
+        font-size: 14px;
+        margin-top: 14px;
+    }
+    .card-right .button{
+        float: none!important;
+        padding-right: 0;
+        margin: 10px auto;
+        text-align: center; 
+    }
+    
+    /*
+    -----------------------------------
+    *       
+    *
+        Rooms List
+    *
+    *
+    -----------------------------------
+    */
+    
+    .package-details .package-text ,.package-details .package-feature{
+        display: none;
+        visibility: hidden;
+    }
+    .category-border{
+        margin-bottom: 15px;
+    }
+    .package-category {
+        margin-bottom: 8px;
+    }
+    .package-title{
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .package-text {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .package-image img {
+        height: 320px;
+    }
+    .package-image .price-tag {
+        font-size: 15px;
+        bottom: 0;
+        left: 15%;
+    }
+    .package-image .price-tag span {
+        font-size: 10px;
+    }
+    .package-image:hover .price-tag {
+        left: 15%;
+    }
+    .package-image .package-image-overlay .package-feature {
+        padding-left: 15%;
+    }
+    .package-image .package-image-overlay .border-left {
+        margin-left: 14%!important;
+    }
+    .package-image .package-image-overlay .border-middle {
+        margin-bottom: 12%!important;
+    }
+    .room-item .card-text {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .room-price {
+        font-size: 26px;
+        line-height: 18px;
+    }
+    .room-price .duration{
+        font-size: 12px;
+    }
+    
+    .facilities-item{
+        
+    }
+    
+    
+    /*
+    -----------------------------------
+    *       
+    *
+        Contact page
+    *
+    *
+    -----------------------------------
+    */
+    
+    .contact-item{
+        margin-bottom: 25px;
+    }
+    .feedback-form .form-headding{
+        text-align: center;
+    }
+    .form-top{
+        margin-bottom: 0
+    }
+    .form-input{
+        margin-bottom: 15px;
+    }
+    
+    /*
+    -----------------------------------
+    *       
+    *
+        Spa service
+    *
+    *
+    -----------------------------------
+    */
+    
+    .spa-price-package{
+        margin-bottom: 25px;
+    }
+    
+    /*
+    -----------------------------------
+    *       
+    *
+        News 
+    *
+    *
+    -----------------------------------
+    */
+    .blog-posts-wrapper{
+        margin-bottom: 60px;
+    }
+    .blog-post .card-title{
+        font-size: 20px;
+    }
+    .blog-post .card-text{
+        font-size: 15px;
+        line-height: 27px;
+    }
+    .blog-post .blog-date {
+        width: 56px;
+        height: 56px;
+        top: 16%;
+        left: 77%;
+        padding: 12px 12px;
+    }
+    .blog-post .blog-date h5 {
+        font-size: 14px;
+    }
+    .blog-post .card:hover .blog-date {
+        left: 77%;
+    }
+    .page-nav-links{
+        margin-top: 15px!important;
+        padding-left: 10%;
+    }
+    .r-list .list-item{
+        padding-bottom: 10px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
